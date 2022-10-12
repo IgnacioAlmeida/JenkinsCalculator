@@ -1,3 +1,4 @@
+import java.util.Random;
 
 class Calculator {
 
@@ -52,17 +53,17 @@ class Calculator {
     if int a = 16 then this method returns: 10000
      */
     String intToBinaryNumber(int n){
-//        if (n == 0) {
-//            return "0";
-//        }
-//        StringBuilder binaryNumber = new StringBuilder();
-//        while (n > 0) {
-//            int remainder = n % 2;
-//            binaryNumber.append(remainder);
-//            n /= 2;
-//        }
-//        binaryNumber = binaryNumber.reverse();
-//        return binaryNumber.toString();
+        //        if (n == 0) {
+        //            return "0";
+        //        }
+        //        StringBuilder binaryNumber = new StringBuilder();
+        //        while (n > 0) {
+        //            int remainder = n % 2;
+        //            binaryNumber.append(remainder);
+        //            n /= 2;
+        //        }
+        //        binaryNumber = binaryNumber.reverse();
+        //        return binaryNumber.toString();
         return Integer.toBinaryString(n);
     }
 
