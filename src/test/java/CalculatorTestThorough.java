@@ -7,17 +7,17 @@ import static org.junit.Assert.*;
 
 public class CalculatorTestThorough {
 
-//    @Test
-//    public void addTest(){
-//        Calculator myCalculator = new Calculator();
-//
-//        for(int i = 0; i < 2000000000 ; i++){
-//            int firstNumber = 2000000000 - i;
-//            int secondNumber = i;
-//            assertEquals(2000000000, myCalculator.add(firstNumber,secondNumber));
-//        }
-//
-//    }
+    @Test
+    public void addTest(){
+        Calculator myCalculator = new Calculator();
+
+        for(int i = 0; i < 2 ; i++){
+            int firstNumber = 2 - i;
+            int secondNumber = i;
+            assertEquals(2, myCalculator.add(firstNumber,secondNumber));
+        }
+
+    }
 //
 //
 //    @Test
