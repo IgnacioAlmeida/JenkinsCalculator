@@ -56,6 +56,7 @@ class Calculator {
         //        if (n == 0) {
         //            return "0";
         //        }
+
         //        StringBuilder binaryNumber = new StringBuilder();
         //        while (n > 0) {
         //            int remainder = n % 2;
