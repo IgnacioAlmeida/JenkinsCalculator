@@ -27,7 +27,7 @@ public class Main {
 
     if(func.equals("divide")) {
       int b = scanner.nextInt();
-      System.out.println(calc.divide(a,b));
+      System.out.println(calc.divide(a,b))
     }
 
     if(func.equals("fib")) {
