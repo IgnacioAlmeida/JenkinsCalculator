@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-  static void main(String[] args){
+  public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
     Calculator calc = new Calculator();
     System.out.println("Enter a command:");
