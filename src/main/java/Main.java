@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
   static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
@@ -9,27 +11,27 @@ public class Main {
 
     if(func.equals("add")) {
       int b = scanner.nextInt();
-      System.our.println(calc.add(a,b));
+      System.out.println(calc.add(a,b));
 
     }
 
     if(func.equals("subtract")) {
       int b = scanner.nextInt();
-      System.our.println(calc.subtract(a,b));
+      System.out.println(calc.subtract(a,b));
     }
 
     if(func.equals("multiply")) {
       int b = scanner.nextInt();
-      System.our.println(calc.multiply(a,b));
+      System.out.println(calc.multiply(a,b));
     }
 
     if(func.equals("divide")) {
       int b = scanner.nextInt();
-      System.our.println(calc.divida(a,b));
+      System.out.println(calc.divide(a,b));
     }
 
     if(func.equals("fib")) {
-      System.out.println(calc.fibonacciNumberFinder(a,b));
+      System.out.println(calc.fibonacciNumberFinder(a));
     }
 
     if(func.equals("convert")) {
