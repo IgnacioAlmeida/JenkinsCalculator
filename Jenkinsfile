@@ -1,7 +1,7 @@
 pipeline {
     environment {
             registry = "ignacioh/jenkinscalculator"
-            registryCredential = 'dockerhub'
+            registryCredential = 'docker'
             dockerImage=''
     }
 
