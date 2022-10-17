@@ -85,6 +85,4 @@ class Calculator {
             sb.append(chars.charAt(rnd.nextInt(chars.length())));
         return n+=sb.toString();
     }
-
-//Ignacio R. de Almeida
 }
